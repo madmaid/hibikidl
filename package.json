@@ -1,0 +1,27 @@
+{
+  "name": "hibikidl",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "ts-node src/index.ts "
+  },
+  "keywords": [],
+  "author": "",
+  "license": "WTFPL",
+  "dependencies": {
+    "moment": "^2.24.0",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.4",
+    "sanitize-filename": "^1.6.1",
+    "typescript": "^3.5.3"
+  },
+  "devDependencies": {
+    "@types/node": "^12.6.3",
+    "@types/request": "^2.48.2",
+    "@types/request-promise": "^4.1.44",
+    "@types/sanitize-filename": "^1.1.28",
+    "ts-node": "^8.3.0"
+  }
+}
