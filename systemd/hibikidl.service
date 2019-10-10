@@ -1,0 +1,10 @@
+[Unit]
+Description=Download Hibiki Audio Files
+[Service]
+Type=simple
+WorkingDirectory=%h/repo/hibikidl/
+ExecStart=/usr/bin/npm start /media/recorded/hibiki/ 2>&1
+
+Environment=NODE_ENV=production
+[Install]
+WantedBy=default.target

@@ -1,0 +1,9 @@
+[Unit]
+Description=Daily Timer for Hibiki Donwloader
+
+[Timer]
+OnCalendar=Mon,Tue,Wed,Thu,Fri,Sat *-*-* 14:00:00
+Unit=hibikidl.service
+
+[Install]
+WantedBy=timers.target
