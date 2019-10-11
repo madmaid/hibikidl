@@ -1,7 +1,7 @@
 [Unit]
 Description=Download Hibiki Audio Files
 [Service]
-Type=simple
+Type=oneshot
 WorkingDirectory=%h/repo/hibikidl/
 ExecStart=/usr/bin/npm start /media/recorded/hibiki/ 2>&1
 
